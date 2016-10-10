@@ -12,6 +12,7 @@
         * replace **YOUR_API_KEY** with the apikey you generated and  **YOUR_USERNAME** with your africastalking username
         * add your country code as a prefix in YOUR_NUMBER like '+254712345678' 
     ```
+    
     var options = {
     apiKey: 'YOUR_API_KEY',
     username: 'YOUR_USERNAME',
