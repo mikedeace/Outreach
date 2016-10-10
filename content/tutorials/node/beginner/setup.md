@@ -1,0 +1,19 @@
+1. First install nodejs on your machine
+
+    * ####Windows    
+        * **32-bit**
+		    https://nodejs.org/dist/v4.6.0/win-x86/node.exe
+        * **64-bit**
+		    https://nodejs.org/dist/v4.6.0/win-x64/node.exe
+
+    * ###Linux
+	    * **Ubuntu or Debian**
+		    Paste these commands in your terminal
+		    ```
+		    curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+		    sudo apt-get install -y nodejs
+		    ```
+
+2. Accure a ***username*** and ***api key***
+    * Navigate to the Africastalking site and [generate](https://account.africastalking.com/settings/apikey) an api key. You will have to Sign In or Sign Up first.     
+    
