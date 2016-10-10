@@ -18,7 +18,7 @@ try:
 
     for result in results:
         # Only status "Queued" means the call was successfully placed
-        print "Status : %s; phoneNumber : %s " % (result['status'], 
+        print "Status : %s; phoneNumber : %s " % (result['status'],
                                 result['phoneNumber'])
 
     # Our API will now contact your callback URL once recipient answers the call!

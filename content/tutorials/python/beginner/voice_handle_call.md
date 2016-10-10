@@ -7,5 +7,4 @@ def voice_callback():
         caller_number = request.values.get('callerNumber', None)
         direction = request.values.get('direction', None)
 
-
 ```

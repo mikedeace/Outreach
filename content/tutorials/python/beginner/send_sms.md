@@ -14,4 +14,4 @@ gateway = AfricasTalkingGateway("some-username", "some-apikey")
 gateway.sendMessage('+254701XXXXXX', "Hi, I'm texting")
 
 
-# go to intermediate - project?
+# go to intermediate
