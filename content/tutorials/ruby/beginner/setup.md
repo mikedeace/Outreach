@@ -85,7 +85,7 @@ $ touch sms.rb
 
 require './AfricasTalkingGateway'
 
-gateway = AfricasTalkingGateway.new(username, apikey)
+gateway = AfricasTalkingGateway.new('yourusername', 'yoursandboxapikey','sandbox')
 
 gateway.sendMessage("+254711XYZXYZ", "Hello from Ruby!")
 
