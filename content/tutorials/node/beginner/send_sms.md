@@ -17,10 +17,10 @@
     username: 'YOUR_USERNAME',
     format: 'json'
        };
-       
-    var sms = AfricasTalking.SMS;   
-       
+        
     var AfricasTalking = require('africastalking')(options);
+    
+    var sms = AfricasTalking.SMS;
     
     var opts ={
         'to' : 'YOUR_NUMBER', //include the country code example +254712345678
