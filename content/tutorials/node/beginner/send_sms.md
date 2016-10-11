@@ -1,6 +1,5 @@
-1. Create an sms short code. [click here to navigate](https://account.sandbox.africastalking.com/sms/createshortcode)
-
-2. Your first SMS
+#### (Live Production)
+1. Your first SMS
     
     1. Start a project
         + create a folder in your desktop
@@ -25,12 +24,11 @@
     
     var opts ={
         'to' : 'YOUR_NUMBER', //include the country code example +254712345678
-        'from':'YOUR_SHORT_CODE',
         'message':'Hello AFRICA'
     };
     
     sms.send(opts);
     
     ```
-   3. switch to the terminal and run ```node sms.js``
-   4. view the message you just sent to the target number
+   2. switch to the terminal and run ```node sms.js``
+   3. view the message you just sent to the target number
