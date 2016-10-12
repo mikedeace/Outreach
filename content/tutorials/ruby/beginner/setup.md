@@ -106,7 +106,7 @@ For Windows
 ```
 
 * To run the application, change directory to your root folder and run the command ruby <'script name'>
-
+For Ubuntu
 ```sh
 
 $ cd
