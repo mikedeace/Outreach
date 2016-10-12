@@ -105,7 +105,7 @@ For Windows
 
 ```
 
-* To run the application, change directory to your root folder and run the command ruby <'script name'>
+* To run the application, change directory to your project folder and run the command ruby <'script name'>
 For Ubuntu
 ```sh
 
@@ -121,8 +121,8 @@ For Windows
 >cd\
 >cd User
 >cd YourUsername
->cd  rubyapp
+>cd rubyapp
 >cd ruby sms.rb
 
 ```
-* If everything is set up fine, you should receive an SMS on the number +254711XYZXYZ which you registered with on your asndbox app. :-)
+* If everything is set up fine, you should receive an SMS on the number +254711XYZXYZ which you registered with on your sandbox app. :-)
