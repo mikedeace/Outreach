@@ -1,7 +1,10 @@
 ## Making a call
 #####You will require
 -------------------
-> *Africastalking Gateway class,Username and Apikey. 
+> Africastalking Gateway class,Username and Apikey. 
+>Also you will require to create an Africa's Talking voice number [here]( https://account.sandbox.africastalking.com/voice/create)
+
+-The voice number will be your default caller number That is it is going to be used when you are making outgoing call and also for receiving incoming calls
 
 ```php
 <?php
@@ -13,32 +16,12 @@ $username   = "Username eg ripper";
 $apikey     = "APIKey";
 
 // Specify your Africa's Talking phone number in a 12 digit
-$from = "+254711XXX045";
 
-// Specify the numbers that you want to call to in a comma-separated list
-// Please ensure you include the country code (+254 for Kenya in this case)
-$to   = "+254722XXXYYY,+254733YYYZZZ";
-
-// Any gateway errors will be captured by our custom Exception class below, 
-// so wrap the call in a try-catch block
-try 
-{
   // Make the call
-  $results = $gateway->call($from, $to);
+  //the first your Africa's Talking phone number the second is the numbers you want to call
+  //Both should be in a 12 digit format
+$gateway->call("+254711XXX045", "+254722XXXYYY");
 
-  //This will loop through all the numbers you requested to be called
-  foreach($results as $result) {
-    //Only status "Queued" means the call was successfully placed
-    echo $result->status;
-    echo $result->phoneNumber;
-    echo "<br/>";
-  }
-        
-}
-catch ( AfricasTalkingGatewayException $e )
-{
-  echo "Encountered an error while making the call: ".$e->getMessage();
-}
 
 
 ?>

@@ -4,17 +4,10 @@
 <?php
 require_once('AfricastalkingGateway');
 
-$username   = "MyAfricasTalkingUsername";
-$apikey     = "MyAfricasTalkingApiKey";
 
-$gateway    = new AfricasTalkingGateway($username, $apikey);
+$gateway    = new AfricasTalkingGateway("MyAfricasTalkingUsername", "MyAfricasTalkingApiKey");
 
-try
-{ 
-  $data = $gateway->getUserData();
+ $data = $gateway->getUserData();
   echo "Balance: " . $data->balance."\n";
-}
-catch ( AfricasTalkingGatewayException $e )
-{
-  echo "Encountered an error while fetching user data: ".$e->getMessage()."\n";
-}
+  
+  ?>

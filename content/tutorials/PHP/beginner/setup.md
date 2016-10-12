@@ -39,6 +39,5 @@ $gateway->sendMessage("+254733YYYZZZ","Hey Stranger!!!!");
 ?>```
 
 -Start the apache server you have installed and load sms.php
--I
 
-f everyrhing is fine,+254733YYYZZZ will recive Hey stranger text
+-If everyrhing is fine,+254733YYYZZZ will recive Hey stranger text
