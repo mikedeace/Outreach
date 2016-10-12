@@ -85,10 +85,44 @@ $ touch sms.rb
 
 require './AfricasTalkingGateway'
 
-gateway = AfricasTalkingGateway.new('yourusername', 'yoursandboxapikey','sandbox')
+gateway = AfricasTalkingGateway.new("jani", "YourAPIKeyLikeThis->a2f1780b4bcd60323b9941675349cda487ba54109367f82532541636e9","sandbox")
 
 gateway.sendMessage("+254711XYZXYZ", "Hello from Ruby!")
 
 
 ```
-* If everything is set up fine, you should receive an SMS on the number +254711XYZXYZ. :-)
+
+For Windows
+```sh
+
+>cd\
+>cd User
+>cd YourUsername
+>cd  rubyapp
+>echo "require './AfricasTalkingGateway' " > sms.rb
+>echo "gateway = AfricasTalkingGateway.new("jani", "YourAPIKeyLikeThis->a2f1780b4bcd60323b9941675349cda487ba54109367f82532541636e9","sandbox")" >> sms.rb
+>echo "gateway.sendMessage("+254711XYZXYZ", "Hello from Ruby!")" >> sms.rb
+
+```
+
+* To run the application, change directory to your root folder and run the command ruby <'script name'>
+
+```sh
+
+$ cd
+$ cd rubyapp
+$ ruby sms.rb 
+
+```
+
+For Windows
+```sh
+
+>cd\
+>cd User
+>cd YourUsername
+>cd  rubyapp
+>cd ruby sms.rb
+
+```
+* If everything is set up fine, you should receive an SMS on the number +254711XYZXYZ which you registered with on your asndbox app. :-)
