@@ -18,3 +18,8 @@
 2. Accure a ***username*** and ***api key***
     * Navigate to the Africastalking site and [generate](https://account.africastalking.com/settings/apikey) an api key. You will have to Sign In or Sign Up first.     
     
+3. Start a project
+        + create a folder in your desktop
+        + open up a terminal or commandline and cd into the folder you created
+        + run ``` npm init  ``` and accept all defaults
+4. Install **africastalking** dependencies by running ``` npm install --save africastalking```
