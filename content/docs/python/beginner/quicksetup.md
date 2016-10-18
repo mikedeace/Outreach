@@ -19,7 +19,7 @@ The API key is unique to you and you will need it, plus your username for any re
 Make sure not to lose it!
 
 ##3. Download Africa’s Talking Library
-Next you will need to download the [AfricasTalkingGateway.py](http://docs.africastalking.com/smslibraries/php) to connect to our APIs.
+Next you will need to download the [AfricasTalkingGateway.py](http://docs.africastalking.com/smslibraries/python) to connect to our APIs.
 
 Those are the basic requirements you need to fulfil in order to build applications and interact with our API's. 
 Next we are going to send a simple SMS to make sure everything is set up right and have a first look on how to interact with the APIs.
