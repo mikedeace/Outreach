@@ -1,9 +1,9 @@
-#importing the helper gateway
+Importing the helper gateway
 ```python
 from AfricasTalkingGateway import (AfricasTalkingGateway, AfricasTalkingGatewayException)
 
 ```
-#add the number you are sending to
+Add the number you are sending to
 
 ```python
 to = "+2547xxxxxxxx"
