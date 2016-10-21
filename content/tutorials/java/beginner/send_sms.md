@@ -1,11 +1,5 @@
-- Make sure your build.gradle file has the following ```json``` dependency
-    ```
-    compile group: 'org.json', name: 'json', version: '20160810'
-    ```
-    
-- Download the ```africastalking gateway class``` [here](http://docs.africastalking.com/smslibraries/java)
-- Include it in your src/main/java folder
-- paste this code in your Send_SMS.java class 
+
+- paste this code in your Send_SMS.java class file and run it
     - include your username, apikey, recipient's phone number and message as shown in the variables
 
 ```
@@ -14,7 +8,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 
-public class SendSms {
+public class Send_SMS {
 
     public static String username = "MyUsername";
     public static String apiKey = "MyAPIKey";
