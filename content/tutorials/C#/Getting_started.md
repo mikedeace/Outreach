@@ -3,11 +3,12 @@
 - Creating Africa's Talking [Sandbox](https://account.sandbox.africastalking.com/login?page=/ ) account or [live](https://www.africastalking.com/) account
 - Take note of your africa's talking live account username and sandbox account user name
 - Get [Sandbox API_KEY](https://account.sandbox.africastalking.com/settings/apikey) / [Live API_KEY](https://account.africastalking.com/settings/apikey)
-- [Download](http://docs.africastalking.com/smslibraries/c#) the C# gateway class
+- [Download](http://docs.africastalking.com/smslibraries/csharp) the C# gateway class
 - install visual studio ``preferably Microsoft Visual Studio community`` but others would work as well
 
 - After installation Open visual studio, and create a new console project 
-- copy this
+
+- copy this into your .cs file
 
 ```cs
 
