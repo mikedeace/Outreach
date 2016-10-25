@@ -4,4 +4,4 @@
     ```
     
 - Download the ```africastalking gateway class``` [here](http://docs.africastalking.com/smslibraries/java)
-- Include it in your src/main/java folder
+- Include it in your ``src/main/java`` folder
