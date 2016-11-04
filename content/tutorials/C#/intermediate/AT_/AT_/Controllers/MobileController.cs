@@ -68,9 +68,9 @@ namespace AT_.Controllers
         {
             //if getSms is to be used as part of the ussd then change the uncomment this
             //string recipient = serverModels.phoneNumber;
-            string recipient = "+254716361770";
+            string recipient = "+254716XXYYZZ";
             string message = "Hi mr. In order to succeed, we must first believe that we can.\n Read more at: http://www.brainyquote.com/quotes/topics/topic_motivational.html";
-            AfricasTalkingGateway gateway = new AfricasTalkingGateway("saluoscar", "49b2072164745a882f212e1d19c961f1a1050f5b5c4cf17ccb092f015cd9df5e");
+            AfricasTalkingGateway gateway = new AfricasTalkingGateway("username", "apiKey");
             gateway.sendMessage(recipient, message);
         }
         [Route("call")]
@@ -78,12 +78,12 @@ namespace AT_.Controllers
         {
             //use your africastalking phonenumber
 
-            string from = "+254711082962";
+            string from = "+25471108YYZZ";
             //uncomment if its to be used in ussd
             //string to = serverModels.phoneNumber;
-            string to = "+254716361770 ";
+            string to = "+254716XXYYZZ ";
 
-            AfricasTalkingGateway gateway = new AfricasTalkingGateway("saluoscar", "49b2072164745a882f212e1d19c961f1a1050f5b5c4cf17ccb092f015cd9df5e");
+            AfricasTalkingGateway gateway = new AfricasTalkingGateway("username", "apiKey");
 
             gateway.call(from, to);
         }

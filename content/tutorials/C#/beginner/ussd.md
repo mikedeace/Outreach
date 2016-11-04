@@ -76,5 +76,5 @@ namespace AT_.Controllers
 
 5. Save and run your project. 
 6. When the browser pops up , navigate `your localhost`/africas/talking/ussd
-7. open ngrok and run 
-8. copy paste the ngrok url and its postfix ``/africas/talking/ussd`` to your aficastalking account 
+7. Run ngrok
+8. Copy paste the ngrok url and its postfix ``/africas/talking/ussd`` to your aficastalking account 
