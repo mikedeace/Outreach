@@ -1,4 +1,4 @@
-###Introduction (Intermediate)
+###Introduction
 The USSD channel allows you to serve two way interactive content via a USSD call channel.
 Users get a menu everytime they dial/interact with the USSD channel.
 
