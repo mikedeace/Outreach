@@ -36,8 +36,7 @@ class UssdController extends Controller
         }
 
 
-        else {
-            if ($text == '1') {
+        else if ($text == '1') {
                 $main_menu = "We will be shortly sending you an inspiring message:";
 
                 $response = $main_menu;
@@ -46,8 +45,7 @@ class UssdController extends Controller
                 $this->sendResponse($response, 2);
             }
 
-        else {
-            if ($text == '2') {
+        else if ($text == '2') {
                 $main_menu = "Please wait while we place your call.\n";
 
                 $response = $main_menu;
@@ -55,8 +53,7 @@ class UssdController extends Controller
 
                 $this->sendResponse($response, 2);
             }
-        else {
-            if ($text == '3') {
+        else if ($text == '3') {
                 $main_menu = "Today it seems you are lucky.\n";
 
                 $response = $main_menu;
@@ -64,9 +61,7 @@ class UssdController extends Controller
 
                 $this->sendResponse($response, 2);
             }
-        } 
-        }
-        }
+
     }
     }
 
@@ -92,11 +87,7 @@ class UssdController extends Controller
         // Create a new instance of our awesome gateway class
         $gateway = new AfricasTalkingGateway($username, $apikey);
         // Make the call
-        $result=$gateway->call($from, $to);
-        
-        return $result;
-        echo "If you can dream it, you can do it. To get this and more visit: http://www.brainyquote.com/quotes/topics/topic_motivational.html\n";
-        // Our API will now contact your callback URL once the recipient answers the call!
+        $gateway->call($from, $to);
     }
     public function getAirtime()
     {
@@ -141,7 +132,7 @@ class UssdController extends Controller
         }
 
 
-        $output .= $response;
+        $output.=$response;
         header('Content-type: text/plain');
         echo $output;
         exit;

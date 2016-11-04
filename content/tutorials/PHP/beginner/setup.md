@@ -19,8 +19,8 @@ After you have completed every step in the Getting_started.md, we need to test e
 
 -Create a folder to test your application and call it what you like for example
 
->>Windows ``C:\Users\YourUsername\Documents\ATPHP``
->>Linux ``$mkdir ATPHP``
+>> 1. Windows ``C:\Users\YourUsername\Documents\ATPHP``
+>> 2. Linux ``$mkdir ATPHP``
 
 
 -Copy / transfer the gateway class downloaded from the ``Getting_started.md`` to this folder 
@@ -36,8 +36,10 @@ $gateway    = new AfricasTalkingGateway("Username eg ripper", "APIKey");
 
 $gateway->sendMessage("+254733YYYZZZ","Hey Stranger!!!!");
 
-?>```
+?>
 
--Start the apache server you have installed and load sms.php
+```
 
--If everyrhing is fine,+254733YYYZZZ will recive Hey stranger text
+- Start the apache server you have installed and load sms.php
+
+- If everything is fine,+254733YYYZZZ will receive Hey stranger text
