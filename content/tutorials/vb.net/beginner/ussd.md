@@ -39,7 +39,7 @@ the session.
 * Give it a name, we will call it *MobileController*
 * paste this code in the *MobileController.vb* file.
 
-```
+```vb
 Imports System.Net
 Imports System.Net.Http
 Imports System.Web.Http
